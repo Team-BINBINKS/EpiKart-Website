@@ -25,8 +25,11 @@ Preferably use VS Code with extensions :
 
 you can also install the extensions that are recommended in the bottom right of VS Code
 
+After installing everything, restart your computer if required.
+
 ## How to use / modify
 
+- Pull the repository : `git pull https://github.com/Team-BINBINKS/EpiKart-Website.git`
 - Run a terminal from : Terminal -> New Terminal, in VS Code (in the git folder)
 - To install all Node Packages : `npm i concurrently @11ty/eleventy tailwindcss @tailwindcss/typography` (in the git folder)
 - To run a server (locally) to test your modification :
