@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "tailwind:process": "npx postcss src/scss/global.css --o src/_includes/assets/css/global.css --watch",
-    "start": "concurrently \"npm run tailwind\" \"npm run serve\"",
+    "tailwind:build": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
+    "start": "npm run tailwind:build && concurrently \"npm run tailwind\" \"npm run serve\"",
     "serve": "npx eleventy --serve",
     "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css && eleventy"
   },
