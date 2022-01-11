@@ -7,7 +7,7 @@ A beautiful website, for a beautiful project
 ## Rules ⚠️
 
 1.  Do not override `.gitignore` (Never add node_modules)
-2.  Do not modify any `.js, .json and .js ` files without asking (it could break site scripts)
+2.  Do not modify any `.js, .json and special files` files without asking (it could break site scripts)
 3.  Mainly modify docs in `.md`
 
 ## Needed Tools
@@ -34,7 +34,7 @@ you can also install the extensions that are recommended in the bottom right of 
   - Go in your browser an type URL which is described as Local, usually `localhost:8080`
 - Do your modification / experimentation
 - Git publish (to update the git for TEAM BINBINKS, but also for the live site render)
-  - Add your files, if needed (Don't forgot rule 1)
+  - Add your files, if needed (Don't forget rule 1)
   - Commit with an explicit message (no laziness will be allowed)
   - Don't forget to push
 
