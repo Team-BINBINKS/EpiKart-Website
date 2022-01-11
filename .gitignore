@@ -103,7 +103,6 @@ dist
 # TernJS port file
 .tern-port
 
-# BINBINKS edited gitignore
-# src/output.css
 
-# .DS_store
+# Added by us
+src/outpout.css

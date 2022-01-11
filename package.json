@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "tailwind:build": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
-    "start": "npx tailwindcss -i ./src/input.css -o ./src/output.css && concurrently \"npm run tailwind\" \"npm run serve\"",
-    "serve": "npx eleventy --serve",
-    "build": "npx eleventy"
+    "tailwind:process": "npx postcss src/scss/global.css --o src/_includes/assets/css/global.css --watch",
+    "start": "concurrently \"npm run tailwind\" \"npm run serve\"",
+    "serve": "npx eleventy --serve"
   },
   "keywords": [],
   "author": "",
