@@ -13,7 +13,9 @@ A beautiful website, for a beautiful project
 ## Needed Tools
 
 Install [Git](https://git-scm.com/) (obviously guys)
+
 Install [Node JS](https://nodejs.org/en/)
+
 Preferably use VS Code with extensions :
 
 - [TailwindCSS](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
