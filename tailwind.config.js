@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       extend: {
         transitionTimingFunction: {
-          bounce: "cubic-bezier(.17,.67,.37,1.17)",
+          bounce: "",
         },
       },
     },

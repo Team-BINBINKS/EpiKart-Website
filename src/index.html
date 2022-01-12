@@ -7,9 +7,16 @@
     <title>EpiKart</title>
     <link rel="stylesheet" href="/output.css" />
     <link rel="icon" href="./assets/icon.svg" />
+    <script>
+      if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+        document.querySelector("html").classList.add("dark");
+      } else {
+        document.querySelector("html").classList.remove("dark");
+      }
+    </script>
     <script src="/assets/script.js"></script>
   </head>
-  <body onLoad="updateColor()" class="mx-32 transition-all duration-1000 dark:bg-slate-900 bg-slate-50">
+  <body onLoad="setColorTheme()" class="mx-32 transition-all duration-1000 dark:bg-slate-900 bg-slate-50">
     <div class="h-full relative">
       <header class="flex justify-between items-center h-16 text-slate-900">
         <div class="flex items-center gap-4" href="/">
@@ -28,10 +35,10 @@
           <button class="font-medium text-xl leading-8 py-1 px-4 rounded-xl shadow-lg shadow-red-200 hover:shadow-lg hover:shadow-red-300 transition-all duration-200 dark:shadow-red-500/50">
             Report
           </button>
-          <button onclick="setColorMode()" class="relative">
+          <button onclick="setColorMode()" class="h-6 w-6 relative">
             <svg
               id="switch-icon-sun"
-              class="transition-all duration-1000 opacity-100 absolute ease-[cubic-bezier(.17,.67,.37,1.17)]"
+              class="absolute top-0 right-0 opacity-0"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -55,7 +62,7 @@
             </svg>
             <svg
               id="switch-icon-moon"
-              class="rotate-[359deg] transition-all ease-[cubic-bezier(.17,.67,.37,1.17)] duration-1000 opacity-0 absolute"
+              class="absolute top-0 right-0 rotate-[359deg] opacity-0"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
