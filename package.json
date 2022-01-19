@@ -8,7 +8,7 @@
     "tailwind:build": "npx tailwindcss -i ./src/input.css -o ./src/output.css",
     "start": "npm run tailwind:build && concurrently \"npm run tailwind\" \"npm run serve\"",
     "serve": "npx eleventy --serve",
-    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css && eleventy"
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css && eleventy"
   },
   "keywords": [],
   "author": "",
