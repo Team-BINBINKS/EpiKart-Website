@@ -82,3 +82,9 @@ function setBtnSunLoad() {
   moon.classList.add("opacity-0");
   moon.classList.add("rotate-[359deg]");
 }
+
+function showNav() {
+  let el = document.getElementById("mobile-nav");
+  el.classList.remove("hidden");
+  el.classList.add("absolute");
+}

@@ -1,5 +1,5 @@
 <header class="flex justify-between items-center h-16 text-slate-900">
-  <div class="lg:hidden">
+  <button onclick="showNav()" class="lg:hidden">
     <svg
       class="fill-black dark:fill-white"
       xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +14,7 @@
     >
       <path d="M3 16h18v2H3v-2zm0-5h18v2H3v-2zm0-5h18v2H3V6z" fill-rule="evenodd"></path>
     </svg>
-  </div>
+  </button>
   <div class="flex items-center gap-4" href="/">
     <svg class="fill-red-500 stroke-1" xmlns="http://www.w3.org/2000/svg" viewBox="0.000 0.000 24.000 24.000" width="32" height="32">
       <path
@@ -72,4 +72,7 @@
       </svg>
     </button>
   </div>
+  <nav id="mobile-nav" class="hidden inset-0 bg-green-500">
+    <p>Bruh</p>
+  </nav>
 </header>
