@@ -117,8 +117,10 @@ function setBtnSunLoad() {
 
 function showNav() {
   let el = document.getElementById("mobile-nav");
-  el.classList.remove("-translate-y-full");
-  el.classList.add("-translate-y-0");
+  el.classList.remove("bottom-full");
+  el.classList.add("bottom-0");
+  el.classList.remove("-top-full");
+  el.classList.add("top-0");
   let navItems = document.getElementsByClassName("nav-items");
   for (const navItem of navItems) {
     navItem.classList.add("-translate-x-0");
@@ -127,8 +129,11 @@ function showNav() {
 }
 function hideNav() {
   let el = document.getElementById("mobile-nav");
-  el.classList.remove("-translate-y-0");
-  el.classList.add("-translate-y-full");
+  el.classList.remove("bottom-0");
+  el.classList.add("bottom-full");
+  el.classList.remove("top-0");
+  el.classList.add("-top-full");
+
   let navItems = document.getElementsByClassName("nav-items");
   for (const navItem of navItems) {
     navItem.classList.remove("-translate-x-0");
