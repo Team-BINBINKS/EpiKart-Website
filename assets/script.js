@@ -1,8 +1,10 @@
 function updateColor() {
   if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    document.body.classList.add("duration-1000");
     document.querySelector("html").classList.add("dark");
     setBtnMoon();
   } else {
+    document.body.classList.add("duration-1000");
     document.querySelector("html").classList.remove("dark");
     setBtnSun();
   }
