@@ -4,5 +4,6 @@
   "emmet.includeLanguages": {
     "nunjucks": "html",
     "njk": "html"
-  }
+  },
+  "prettier.tabWidth": 2
 }

@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include "_head.html" %}
-  <body onLoad="setColorTheme()" class="md:mx-32 mx-8 transition-all duration-1000 dark:bg-slate-900 bg-slate-50">
+  <body onLoad="setColorTheme()" class="mx-8 bg-slate-50 transition-all duration-1000 ease-in-out dark:bg-slate-900 md:mx-32">
+    <div id="preloader" class="fixed inset-0 z-50 flex h-full w-full items-center justify-center bg-white">
+      <!-- //<img src="/assets/preloader.gif" alt="" /> -->
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
     {% include "_header.html" %}
-    <div class="h-full relative">
-      <div class="flex flex-col-reverse md:flex-row mt-8 md:mt-32 md:h-[500px]">
-        <div class="flex flex-col items-start gap-8 md:w-1/2 mt-16">
-          <h1 class="text-5xl sm:text-7xl md:text-8xl font-bold text-slate-800 dark:text-white w-3/4">S2 Project EpiKart</h1>
+    <div class="relative z-0 h-full">
+      <div class="mt-8 flex flex-col-reverse md:mt-32 md:h-[500px] md:flex-row">
+        <div class="mt-8 flex flex-col items-start gap-8 sm:mt-8 md:w-1/2">
+          <h1 class="w-3/4 text-6xl font-bold text-slate-800 dark:text-white sm:text-7xl md:text-8xl lg:text-9xl">S2 Project EpiKart</h1>
           <button
-            class="font-medium text-xl leading-8 py-2 px-5 rounded-xl shadow-lg shadow-red-200 hover:shadow-lg hover:shadow-red-400 bg-red-400 text-white transition-all duration-200 hover:-translate-y-2 dark:shadow-red-500/50"
+            class="rounded-xl bg-red-400 py-2 px-5 text-xl font-medium leading-8 text-white shadow-lg shadow-red-200 transition-all duration-200 hover:-translate-y-2 hover:shadow-lg hover:shadow-red-400 dark:shadow-red-500/50"
           >
             <a href="/project-presentation" class=""> See Project Presentation </a>
           </button>
         </div>
-        <div class="md:w-1/2 md:h-auto relative w-4/5 h-[200px] justify-center mx-auto">
+        <div class="relative mx-auto h-[200px] w-4/5 justify-center md:h-auto md:w-1/2">
           <img class="absolute top-0 left-16 w-3/4 drop-shadow-[0_35px_35px_rgba(185,28,28,0.50)]" src="./assets/blob.png" alt="" />
           <img class="absolute top-0 left-0 drop-shadow-md" src="./assets/kart.png" alt="" />
         </div>
       </div>
     </div>
-    <div class="absolute bottom-8 right-1/2">
+    <div class="absolute bottom-8 right-1/2 translate-x-1/2">
       <a ref="">
         <svg
-          class="stroke-[1.5px] hover:-translate-y-1 transition duration-200 shadow-2xl dark:stroke-white"
+          class="stroke-[1.5px] shadow-2xl transition duration-200 hover:-translate-y-1 dark:stroke-white"
           fillxmlns="http://www.w3.org/2000/svg"
           width="40"
           height="40"
