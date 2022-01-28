@@ -105,3 +105,4 @@ dist
 
 # Binbinks added files / folders
 src/output.css
+.DS_Store
