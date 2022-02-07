@@ -1,7 +1,7 @@
 {
-  "name": "test-11ty",
+  "name": "epikart",
   "version": "1.0.0",
-  "description": "",
+  "description": "The Website of EpiKart, S2 Project at Epita",
   "main": "index.js",
   "scripts": {
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
@@ -11,7 +11,7 @@
     "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css && eleventy"
   },
   "keywords": [],
-  "author": "",
+  "author": "Team BINBINKS",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
