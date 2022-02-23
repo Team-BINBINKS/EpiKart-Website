@@ -5,6 +5,8 @@ module.exports = {
   darkMode: "class",
   theme: {
     screens: {
+      spp: "321px",
+      sp: "376px",
       lancelot: "400px",
       ...defaultTheme.screens,
     },
