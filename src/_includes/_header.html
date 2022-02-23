@@ -1,15 +1,11 @@
 <header class="z-0 flex h-16 select-none items-center justify-between text-slate-900">
   <div class="flex items-center gap-4" href="/">
-    <svg class="fill-red-500 stroke-1" xmlns="http://www.w3.org/2000/svg" viewBox="0.000 0.000 24.000 24.000" width="32" height="32">
-      <path
-        d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11 -4.925 11 -11S18.075 1 12 1zm5.143 16 -2.367 -6.939 -2.809 3.469 -2.742 -3.469L6.775 17 4 14.755 8.449 5.49l3.518 4.163 3.502 -4.163L20 14.755 17.143 17z"
-      />
-    </svg>
+    <img src="/assets/logo-epikart.png" class="h-8" alt="" />
     <p class="text-xl font-bold leading-8 text-slate-900 dark:text-white">
       <a href="/">EpiKart</a>
     </p>
   </div>
-  <button onclick="showNav()" class="lg:hidden">
+  <button aria-label="Show navigation button" onclick="showNav()" class="lg:hidden">
     <svg
       class="fill-black dark:fill-white"
       xmlns="http://www.w3.org/2000/svg"
@@ -27,9 +23,9 @@
   </button>
   <div class="hidden items-center gap-8 text-red-500 dark:text-red-400 lg:flex">
     <a class="text-xl font-medium leading-8 underline-offset-2 hover:underline" href="/project-presentation">Project Presentation</a>
-    <a class="text-xl font-medium leading-8 underline-offset-2 hover:underline" href="">Links</a>
+    <a class="text-xl font-medium leading-8 underline-offset-2 hover:underline" href="/links">Links</a>
     <button class="rounded-xl py-1 px-4 text-xl font-medium leading-8 shadow-lg shadow-red-200 transition-all duration-200 hover:shadow-lg hover:shadow-red-300 dark:shadow-red-500/50">Report</button>
-    <button onclick="setColorMode()" class="relative h-6 w-6">
+    <button aria-label="Set color mode button" onclick="setColorMode()" class="relative h-6 w-6">
       <svg
         id="switch-icon-sun"
         class="switch-icon-sun absolute top-0 right-0 opacity-0 ease-in-out"
@@ -88,13 +84,13 @@
         <a class="nav-items -translate-x-1/2 text-3xl font-medium leading-8 underline-offset-2 opacity-0 transition-all delay-75 duration-1000 hover:underline" href="/project-presentation"
           >Project Presentation</a
         >
-        <a class="nav-items font-mediuwm -translate-x-1/2 text-3xl leading-8 underline-offset-2 opacity-0 transition-all delay-150 duration-1000 hover:underline" href="">Links</a>
+        <a class="nav-items font-mediuwm -translate-x-1/2 text-3xl leading-8 underline-offset-2 opacity-0 transition-all delay-150 duration-1000 hover:underline" href="/links">Links</a>
         <button
           class="rounded-xl bg-red-500 py-4 px-2 text-3xl font-medium leading-8 text-white shadow-lg shadow-red-200 transition-all duration-200 hover:bg-red-600 hover:shadow-lg hover:shadow-red-300 dark:text-slate-800 dark:shadow-red-500/50"
         >
           Report
         </button>
-        <button onclick="setColorMode()" class="relative mx-auto h-10 w-10">
+        <button aria-label="Set color mode button" onclick="setColorMode()" class="relative mx-auto h-10 w-10">
           <svg
             id="switch-icon-sun"
             class="switch-icon-sun absolute inset-0 h-10 w-10 opacity-100 ease-in-out"
@@ -136,7 +132,7 @@
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
           </svg>
         </button>
-        <button onclick="hideNav()" class="mx-auto">
+        <button aria-label="Hide navigation button" onclick="hideNav()" class="mx-auto">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"

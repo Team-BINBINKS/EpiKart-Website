@@ -1,6 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   {% include "_head.html" %}
+  <script>
+    window.addEventListener("load", function () {
+      document.getElementById("preloader").classList.add("hidden");
+    });
+  </script>
   <body onLoad="setColorTheme()" class="mx-8 bg-slate-50 transition-all ease-in-out dark:bg-slate-900 md:mx-32">
     <div id="preloader" class="fixed inset-0 z-50 flex h-full w-full items-center justify-center bg-white">
       <div class="lds-ripple">
@@ -9,7 +14,7 @@
       </div>
     </div>
     {% include "_header.html" %}
-    <div class="relative z-0 h-full">
+    <div class="relative z-0 h-[75vh]">
       <div class="mt-8 flex flex-col-reverse md:mt-32 md:h-[500px] md:flex-row">
         <div class="mt-8 flex flex-col items-start gap-8 sm:mt-8 md:w-1/2">
           <h1 class="lancelot:text-6xl w-3/4 text-5xl font-bold text-slate-800 dark:text-white sm:text-7xl md:text-8xl lg:text-9xl">S2 Project EpiKart</h1>
@@ -26,7 +31,7 @@
       </div>
     </div>
     <div class="absolute bottom-8 right-1/2 translate-x-1/2">
-      <a ref="">
+      <button aria-label="Scroll to section 1 button" onclick="ScrollSection1()" ref="">
         <svg
           class="stroke-[1.5px] shadow-2xl transition duration-200 hover:-translate-y-1 dark:stroke-white"
           fillxmlns="http://www.w3.org/2000/svg"
@@ -44,7 +49,36 @@
           <polyline points="8 12 12 16 16 12"></polyline>
           <line x1="12" y1="8" x2="12" y2="16"></line>
         </svg>
-      </a>
+      </button>
+    </div>
+
+    <div id="section-1" class="mt-8 py-8 dark:text-white">
+      <h1 class="text-3xl font-bold text-slate-700 dark:text-white">Group members</h1>
+      <div class="mx-auto mt-8 flex w-full flex-col items-center justify-between gap-36 py-20 lg:my-16 lg:w-[90%] lg:flex-row">
+        <div class="relative h-64">
+          <div class="h-64 w-64 rounded-full border-black/50 bg-red-500 dark:border-4"></div>
+          <img class="absolute bottom-0 w-64" src="/assets/photos/crop-eliott.webp" alt="" />
+          <div class="mt-5 text-center">
+            <p class="text-xl font-semibold">Eliott Flechtner</p>
+            <p>Group Leader</p>
+          </div>
+        </div>
+        <div class="relative h-64">
+          <div class="h-64 w-64 rounded-full border-black/50 bg-red-500 dark:border-4"></div>
+          <img class="absolute bottom-0 w-64" src="/assets/photos/crop-lancelot.webp" alt="" />
+          <div class="mt-5 text-center">
+            <p class="text-xl font-semibold">Lancelot Doucet</p>
+          </div>
+        </div>
+        <div class="relative h-64">
+          <div class="h-64 w-64 rounded-full border-black/50 bg-red-500 dark:border-4"></div>
+          <img class="absolute bottom-0 w-64" src="/assets/photos/crop-titouan.webp" alt="" />
+          <div class="mt-5 text-center">
+            <p class="text-xl font-semibold">Titouan Verhille</p>
+          </div>
+        </div>
+      </div>
+      <h1 class="text-3xl font-bold text-slate-700 dark:text-white">Games content</h1>
     </div>
   </body>
 </html>
