@@ -28,7 +28,8 @@ The EpiKart S2 Project is composed of
 
 ## Site tools
 
-- [HighlightJS](https://highlightjs.org/)
+<!-- - [HighlightJS](https://highlightjs.org/) -->
+
 - [11ty](https://www.11ty.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 

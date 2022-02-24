@@ -1,8 +1,10 @@
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const eleventyGoogleFonts = require("eleventy-google-fonts");
+
 module.exports = function (config) {
-  // config.addPassthroughCopy({
-  //   "src/output.css": "./output.css",
-  // });
   config.addPassthroughCopy("assets");
+  config.addPlugin(syntaxHighlight);
+  config.addPlugin(eleventyGoogleFonts);
 
   return {
     dir: {

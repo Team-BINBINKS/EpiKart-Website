@@ -5,10 +5,12 @@
   <title>EpiKart</title>
   <meta name="theme-color" content="#ef4444" />
 
-  <link rel="stylesheet" href="/assets/github-dark-modif.css" />
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+  {% eleventyGoogleFonts
+  'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap' %}
 
   <link rel="stylesheet" href="/output.css" />
+
+  <link rel="stylesheet" href="/assets/prism-onedark.css" />
   <link rel="icon" href="/assets/icon.svg" />
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png" />
@@ -26,7 +28,6 @@
       document.querySelector("html").classList.remove("dark");
       document.querySelector('meta[name="theme-color"]').setAttribute("content", "#ef4444");
     }
-    hljs.highlightAll();
   </script>
   <script src="/assets/script.js"></script>
   <style>
