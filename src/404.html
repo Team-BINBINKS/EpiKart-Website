@@ -2,15 +2,31 @@
 title: Oops! Not Found
 permalink: 404.html
 ---
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
-  </head>
-  <body>
-    <h1>{{ title }}</h1>
-    <p>This is where you should tell the user how to find their content. Maybe on the <a href="{{ "/" | url }}">home page?</a></p>
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  {% include "_head.html" %}
+  <script>
+    window.addEventListener("load", function () {
+      document.getElementById("preloader").classList.add("hidden");
+    });
+  </script>
+  <body onLoad="setColorTheme()" class="mx-8 bg-slate-50 transition-all ease-in-out dark:bg-slate-900 md:mx-32">
+    <div id="preloader" class="fixed inset-0 z-50 flex h-full w-full items-center justify-center bg-white">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    {% include "_header.html" %}
+    <div class="relative z-0 h-[75vh]">
+      <div class="mt-8 flex flex-col-reverse md:mt-32 md:h-[500px] md:flex-row">
+        <div class="mt-4 flex flex-col items-start gap-8 sm:mt-4">
+          <h1 class="lancelot:text-5xl sp:text-4xl w-3/4 text-2xl font-bold text-slate-800 dark:text-white sm:text-6xl md:text-7xl lg:text-8xl lg:leading-[120px]">
+            Oh bro, you're stuck because you don't know how to type an URL, you better move bastard fast or my friend we'll come to see you! 🔫☠️🇷🇺
+          </h1>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
