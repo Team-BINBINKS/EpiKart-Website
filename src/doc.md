@@ -5,7 +5,7 @@ layout: doc.njk
 
 # Welcome to EpiKart Documentation !
 
-```text
+```
 test de code
 ```
 
