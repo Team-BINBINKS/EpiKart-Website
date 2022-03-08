@@ -9,9 +9,9 @@ layout: doc.njk
 
 The EpiKart S2 Project is composed of
 
-- Eliott Flechtner - [LinkdedIn](https://www.linkedin.com/in/eliott-flechtner-155941229/) - [Github](https://github.com/CapnDev-Git)
-- Lancelot Doucet
-- Titouan Verhille
+- Eliott Flechtner - [LinkdedIn](https://www.linkedin.com/in/eliott-flechtner-155941229/) • [Github](https://github.com/CapnDev-Git)
+- Lancelot Doucet - [Github](https://github.com/lance-leau)
+- Titouan Verhille - [LinkdedIn](https://www.linkedin.com/in/titouan-verhille/) • [Github](https://github.com/titouv)
 
 ## Softwares used
 
@@ -35,4 +35,4 @@ The EpiKart S2 Project is composed of
 
 ---
 
-Site with ☕️ made by Titouan VERHILLE
+Site made with ☕️ by Titouan VERHILLE

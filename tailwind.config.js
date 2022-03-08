@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     screens: {
       spp: "321px",
-      sp: "376px",
+      sp: "374px",
       lancelot: "400px",
       ...defaultTheme.screens,
     },
