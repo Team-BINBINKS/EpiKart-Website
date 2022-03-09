@@ -19,29 +19,40 @@ The EpiKart S2 Project is composed of
 - Figma
 - Notion
 - Blender
+- Microsoft Visual Studio 2019/2022
+- Visual Studio Code
+- Discord
 
 ## Assets
 
-Documentation:
+Inspiration & Tutorials :
 
-- [Photon](https://www.photonengine.com/en-US/Photon) (server)
 - [Photon Youtube tutorial from Blackthornprod](https://www.youtube.com/watch?v=93SkbMpWCGo&t=692s&ab_channel=Blackthornprod)
-- [Kenney Twitter](https://twitter.com/KenneyNL/status/959769638883287040?t=4F95oGbQ9jx_WOB92ppSUw&s=19)
+- [Kenney Twitter : Kart movement inspiration](https://twitter.com/KenneyNL/status/959769638883287040?t=4F95oGbQ9jx_WOB92ppSUw&s=19)
+- [Kart racing game with AI inspiration](https://www.youtube.com/watch?v=i0Vt7l3XrIU)
+- [Arcade style driving instpiration inspiration](https://www.youtube.com/watch?v=cqATTzJmFDY)
 
 Assets:
 
 - [Kenney : city kit roads](https://www.kenney.nl/assets/city-kit-roads)
 - [Kenney : car kit](https://www.kenney.nl/assets/car-kit)
 - [Kenney : racing kit](https://www.kenney.nl/assets/racing-kit)
-- [Some sketchfab 3d models](https://sketchfab.com/3d-models/splats-05f81b4e4cf74e388ff3cef63da3c77f)
+- [Oil puddle 3D model](https://sketchfab.com/3d-models/splats-05f81b4e4cf74e388ff3cef63da3c77f)
+
+Documentation: :
+
+- [Unity](https://docs.unity3d.com/2021.2/Documentation/Manual/index.html)
+- [Photon](https://www.photonengine.com/en-US/Photon) (server)
 
 ## Sounds
 
 ## Libraries
 
+- [PUN Photon 2](https://www.photonengine.com/en-US/Photon)
+
 ## Licences / Copyrights
 
-## Site tools
+## Website tools
 
 - [11ty](https://www.11ty.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)

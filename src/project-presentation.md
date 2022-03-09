@@ -23,7 +23,7 @@ layout: doc.njk
 | Gameplay             | 42\%               | 69\%                | 100\%              |
 | Environment \& Sound | Tracks design 25\% | Tracks design 75\%  | 100\%              |
 |                      | Soundtracks 0\%    | Soundtracks 50\%    |                    |
-| Network \& AI        | 30\%               | 70\%                | 100\%              |
+| Network \& AI        | 50\%               | 70\%                | 100\%              |
 | Website              | 25\%               | 75\%                | 100\%              |
 
 - First presentation : 9 March
