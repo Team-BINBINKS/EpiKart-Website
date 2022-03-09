@@ -5,8 +5,12 @@ layout: doc.njk
 
 # Defense 1
 
+[Book of specifications](../assets/EpiKart___Book_of_specifications%20Updated.pdf)
+
 ## Report
+
+[Report](/assets/EpiKart___Defense_1.pdf)
 
 ## Oral presentation
 
-## The pdf of
+Coming soon
