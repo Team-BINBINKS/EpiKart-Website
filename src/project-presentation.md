@@ -19,7 +19,7 @@ layout: doc.njk
 |                      | First Presentation | Second Presentation | Final Presentation |
 | -------------------- | ------------------ | ------------------- | ------------------ |
 | Display              | 10\%               | 90\%                | 100\%              |
-| Graphics             | 20\%               | 95                  | 100\%              |
+| Graphics             | 20\%               | 95\%                | 100\%              |
 | Gameplay             | 42\%               | 69\%                | 100\%              |
 | Environment \& Sound | Tracks design 25\% | Tracks design 75\%  | 100\%              |
 |                      | Soundtracks 0\%    | Soundtracks 50\%    |                    |
