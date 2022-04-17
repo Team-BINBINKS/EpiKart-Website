@@ -10,7 +10,7 @@ layout: doc.njk
 The EpiKart S2 Project is composed of
 
 - Eliott Flechtner - [LinkdedIn](https://www.linkedin.com/in/eliott-flechtner-155941229/) • [Github](https://github.com/CapnDev-Git)
-- Lancelot Doucet - [Github](https://github.com/lance-leau)
+- Lancelot Doucet - [LinkdedIn](https://www.linkedin.com/in/lancelot-doucet-375460235/) • [Github](https://github.com/lance-leau)
 - Titouan Verhille - [LinkdedIn](https://www.linkedin.com/in/titouan-verhille/) • [Github](https://github.com/titouv)
 
 ## Softwares used
@@ -30,7 +30,7 @@ Inspiration & Tutorials :
 - [Photon Youtube tutorial from Blackthornprod](https://www.youtube.com/watch?v=93SkbMpWCGo&t=692s&ab_channel=Blackthornprod)
 - [Kenney Twitter : Kart movement inspiration](https://twitter.com/KenneyNL/status/959769638883287040?t=4F95oGbQ9jx_WOB92ppSUw&s=19)
 - [Kart racing game with AI inspiration](https://www.youtube.com/watch?v=i0Vt7l3XrIU)
-- [Arcade style driving instpiration inspiration](https://www.youtube.com/watch?v=cqATTzJmFDY)
+- [Arcade style driving inspiration](https://www.youtube.com/watch?v=cqATTzJmFDY)
 
 Assets:
 

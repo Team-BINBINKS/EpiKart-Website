@@ -12,7 +12,7 @@ layout: doc.njk
 - Eliott Flechtner
 - Lancelot Doucet
 - Titouan Verhille
-- Valentin Berna (not a member March 2022)
+- Valentin Berna (not a member since March 2022)
 
 ## Completion timing
 
