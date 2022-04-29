@@ -137,3 +137,14 @@ function hideNav() {
 function ScrollSection1() {
   document.getElementById("section-1").scrollIntoView();
 }
+
+// ------ ADD ELIOTT CROWN ------
+
+function ToggleSpecialItem(id) {
+  const el = document.getElementById(id);
+  if (el.classList.contains("hidden")) {
+    el.classList.remove("hidden");
+  } else {
+    el.classList.add("hidden");
+  }
+}

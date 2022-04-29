@@ -1,6 +1,5 @@
 ---
-title: "EpiKart : Documentation"
-layout: doc.njk
+layout: layouts/doc.njk
 ---
 
-# Welcome to EpiKart Documentation !
+# Welcome to EpiKart Documentation!

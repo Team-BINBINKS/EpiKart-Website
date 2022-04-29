@@ -1,53 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-  {% include "_head.html" %}
-  <body onload="setColorTheme()" class="mx-8 bg-slate-50 transition-all ease-in-out dark:bg-slate-900 md:mx-32">
-    {% include "_header.html" %}
-    <div class="h-full ">
-      <div class="my-16 mx-4 prose-pre:min-w-[80ch] prose-pre:w-[fit-content] prose prose-slate  dark:prose-invert prose-h2:font-semibold ">
+---
+layout : /layouts/base.njk
+---
+<div class="my-16 mx-4 prose-pre:min-w-[80ch] prose-pre:w-[fit-content] prose prose-slate  dark:prose-invert prose-h2:font-semibold ">
 
-        <h1>Reports</h1>
-        <h2>Books</h2>
-        <div class="flex flex-col lg:flex-row  h-1/2 gap-4">
+  <h1>Reports</h1>
+  <h2>Books</h2>
+  <div class="flex flex-col lg:flex-row  h-1/2 gap-4">
+    {% PreviewCard  title="Book of Specifications", link="/assets/reports/EpiKart___Book_of_specifications Updated.pdf", image="/assets/reports/pdf-preview/preview-bookofspec.jpg" %}
+    {% PreviewCard  title="Defense 1", link="/assetsreports//EpiKart___Defense_1.pdf", image="/assets/reports/pdf-preview/preview-defense1.jpg" %}
+    {% PreviewCard  title="Defense 2", link="/assets/reports/EpiKart___Defense_2.pdf", image="/assets/reports/pdf-preview/preview-defense1.jpg" %}
 
-          <div class="lg:w-4/12 bg-white-500 rounded-lg bg-white relative overflow-hidden shadow-lg lg:block flex flex-row h-40 lg:h-auto ">
-            <img src="/assets/pdf-preview/preview-bookofspec.jpg" alt="" class="bg-black m-0 brightness-75 aspect-square object-cover w-1/2 lg:w-auto">
-            <button class="text-white lg:absolute lg:bottom-0 bg-red-500 hover:bg-red-600 transition text-md lg:rounded-md w-full lg:w-auto px-2 lg:m-1 py-1 ">
-              <a href="/assets/EpiKart___Book_of_specifications Updated.pdf" target="_blank" class="no-underline font-normal text-white">
-              Book of Specifications
-              </a>
-            </button>
-          </div>
+  </div>
 
-          <div class="lg:w-4/12 bg-white-500 rounded-lg bg-white relative overflow-hidden shadow-lg lg:block flex flex-row h-40 lg:h-auto ">
-            <img src="/assets/pdf-preview/preview-defense1.jpg" alt="" class="bg-black m-0 brightness-75 aspect-square object-cover w-1/2 lg:w-auto">
-            <button class="text-white lg:absolute lg:bottom-0 bg-red-500 hover:bg-red-600 transition text-md lg:rounded-md w-full lg:w-auto px-2 lg:m-1 py-1 ">
-              <a href="/assets/EpiKart___Defense_1.pdf" target="_blank" class="no-underline font-normal text-white">
-              Defense 1
-              </a>
-            </button>
-          </div>
+  <h2>Powerpoints</h2>
 
-          <div class="lg:w-4/12 bg-white-500 rounded-lg bg-white relative overflow-hidden shadow-lg lg:block flex flex-row h-40 lg:h-auto ">
-            <img src="/assets/pdf-preview/preview-defense1.jpg" alt="" class="bg-black m-0 brightness-75 aspect-square object-cover w-1/2 lg:w-auto">
-            <button class="text-white lg:absolute lg:bottom-0 bg-red-500 hover:bg-red-600 transition text-md lg:rounded-md w-full lg:w-auto px-2 lg:m-1 py-1 ">
-              <a href="/assets/EpiKart___Defense_2.pdf" target="_blank" class="no-underline font-normal text-white">
-              Defense 2
-              </a>
-            </button>
-          </div>
+  <div class="flex flex-col lg:flex-row  h-1/2 gap-4">
+    {% PreviewCard title="Defense 1", link="/assets/reports/defense-1-oral.pdf", image="/assets/reports/pdf-preview/preview-defense1-oral.jpg" %}
+    {% PreviewCard title="Defense 2", link="/assets/reports/defense-2-oral.pdf", image="/assets/reports/pdf-preview/preview-defense2-oral.jpg" %}
+  </div> 
 
-        </div>
-
-        <h2>Powerpoints</h2>
-        <ul>
-          <li>
-
-            <a href="/assets/defense-1-oral.pdf"  target="_blank">First presentation</a>
-          </li>
-        </ul>
-
-      </div>
-    </body>
-  </body>
-</html>
+</div>

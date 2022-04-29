@@ -1,6 +1,5 @@
 ---
-title: "EpiKart : Project Presentation"
-layout: doc.njk
+layout: layouts/doc.njk
 ---
 
 # Project Presentation
@@ -26,8 +25,8 @@ layout: doc.njk
 | Network \& AI        | 50\%               | 70\%                | 100\%              |
 | Website              | 25\%               | 75\%                | 100\%              |
 
-- First presentation : 9 March
-- Second presentation : from April 25th to April 29th
+- First presentation : 9 March ✅
+- Second presentation : from April 25th to April 29th ✅
 - Final presentation : from June 6th to June 17th, 2022
 
 ## Problems encoutered

@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>EpiKart</title>
-    <link rel="stylesheet" href="output.css"/>
-    <link rel="icon" href="./assets/icon.svg"/>
-    <script src="./assets/script.js"></script>
-  </head>
-  <body onload="setColorTheme()" class="md:mx-32 mx-8 transition-all duration-1000 dark:bg-slate-900 bg-slate-50">
-    <div class="h-full relative">
-      <header class="flex justify-between items-center h-16 text-slate-900">
+<header class="flex justify-between items-center h-16 text-slate-900">
         <div class="flex items-center gap-4" href="/">
           <svg
             class="fill-red-500 stroke-1"
@@ -59,13 +46,3 @@
           </button>
         </div>
       </header>
-      <div class="pt-20 flex justify-center flex-col items-center gap-10">
-        <h1 class="text-5xl font-bold text-red-500">{{title}}</h1>
-        <body class="prose prose-stone">
-          {{ content | safe }}
-          <div></div>
-        </body>
-      </div>
-    </body>
-  </body>
-</html>

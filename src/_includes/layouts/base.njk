@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include "layouts/_head.html" %}
+  <body onload="setColorTheme()" class="mx-8 bg-slate-50 transition-all ease-in-out dark:bg-slate-900 md:mx-32">
+    {% include "layouts/_header.html" %}
+    <div class="h-full ">
+      {{ content | safe }}
+    </body>
+  </body>
+</html>
