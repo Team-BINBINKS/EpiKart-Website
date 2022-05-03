@@ -9,7 +9,7 @@ layout: /layouts/base.njk
       <div class="lg:ap-8 flex w-full content-center gap-2">
         <a href="/download">
           <button
-            class="text-md sp:text-xl flex items-center gap-4 rounded-xl bg-red-400 py-2 px-5 leading-8 text-white shadow-lg shadow-red-200 transition-all duration-200 hover:-translate-y-2 hover:shadow-lg hover:shadow-red-400 dark:shadow-red-500/50 lg:text-2xl"
+            class="text-md sp:text-xl flex items-center gap-4 rounded-xl bg-red-500 py-2 px-5 leading-8 text-white shadow-lg shadow-red-200 transition-all duration-200 hover:-translate-y-2 hover:shadow-lg hover:shadow-red-400 dark:shadow-red-500/50 lg:text-2xl"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -30,6 +30,7 @@ layout: /layouts/base.njk
         </a>
         <a href="https://github.com/Team-BINBINKS" class="">
           <button
+            aria-label="github button link"
             class="text-md sp:text-xl aspect-square h-11 rounded-xl bg-blue-500 font-medium leading-8 text-white shadow-lg shadow-blue-200 transition-all duration-200 hover:-translate-y-2 hover:shadow-lg hover:shadow-blue-400 dark:shadow-blue-500/50 lg:h-12 lg:text-2xl"
           >
             <svg
@@ -54,7 +55,7 @@ layout: /layouts/base.njk
       </div>
     </div>
     <div class="mx-auto -ml-10 justify-center md:w-full lg:-mr-10 lg:ml-auto lg:w-2/3">
-      <img src="./assets/newkart.png " alt="kart" />
+      <img src="./assets/newkart.webp " alt="kart" />
     </div>
   </div>
   <div class="sp:block absolute bottom-4 right-1/2 hidden translate-x-1/2 md:bottom-8">
@@ -84,7 +85,7 @@ layout: /layouts/base.njk
   <div class="mx-auto mt-8 flex w-full flex-col items-center justify-evenly gap-36 py-20 lg:my-16 lg:flex-row lg:gap-16">
     <div onclick="ToggleSpecialItem('lancelot-sword')" class="relative h-64">
       <div class="h-64 w-64 rounded-full border-black/50 bg-red-500 dark:border-4"></div>
-      <img class="absolute bottom-0 w-64" src="/assets/photos/crop-lancelot.webp" alt="" />
+      <img loading="lazy" class="absolute bottom-0 w-64" src="/assets/photos/crop-lancelot.webp" alt="" />
       <div id="lancelot-sword" class="absolute bottom-8 right-0 left-0 hidden text-center text-8xl">⚔️</div>
 
       <div class="mt-5 text-center">
@@ -93,7 +94,7 @@ layout: /layouts/base.njk
     </div>
     <div onclick="ToggleSpecialItem('eliott-crown')" class="relative h-64">
       <div class="h-64 w-64 rounded-full border-black/50 bg-red-500 dark:border-4"></div>
-      <img class="absolute bottom-0 w-64" src="/assets/photos/crop-eliott.webp" alt="" />
+      <img loading="lazy" class="absolute bottom-0 w-64" src="/assets/photos/crop-eliott.webp" alt="" />
       <div id="eliott-crown" class="absolute -top-32 right-8 left-0 hidden text-center text-8xl">👑</div>
       <div class="mt-5 text-center">
         <p class="text-xl font-semibold">Eliott Flechtner</p>
@@ -102,8 +103,8 @@ layout: /layouts/base.njk
     </div>
     <div onclick="ToggleSpecialItem('titouan-clown')" class="relative h-64">
       <div class="h-64 w-64 rounded-full border-black/50 bg-red-500 dark:border-4"></div>
-      <img class="absolute bottom-0 w-64" src="/assets/photos/crop-titouan.webp" alt="" />
-      <div id="titouan-clown" class="absolute -top-8 right-4 left-0 hidden text-center text-9xl">🤡</div>
+      <img loading="lazy" class="absolute bottom-0 w-64" src="/assets/photos/crop-titouan.webp" alt="" />
+      <div id="titouan-clown" class="absolute -top-10 right-4 left-0 hidden text-center text-9xl">🤡</div>
 
       <div class="mt-5 text-center">
         <p class="text-xl font-semibold">Titouan Verhille</p>
@@ -113,13 +114,13 @@ layout: /layouts/base.njk
   <h1 class="text-3xl font-bold text-slate-700 dark:text-white">Game content</h1>
 
   <div class="grid gap-4 pt-5 lg:grid-cols-3">
-    <img src="/assets/game-content/selected/game1.jpeg" class="aspect-video self-center rounded-lg lg:col-start-1 lg:col-end-3 lg:row-span-2 lg:row-start-1" alt="" />
-    <img src="/assets/game-content/selected/game3.jpeg" class="aspect-video self-center rounded-lg" alt="" />
-    <img src="/assets/game-content/selected/game6.png" class="aspect-video self-center rounded-lg" alt="" />
-    <img src="/assets/game-content/selected/game2.jpeg" class="aspect-video self-center rounded-lg" alt="" />
-    <img src="/assets/game-content/selected/game4.jpeg" class="aspect-video self-center rounded-lg" alt="" />
+    <img loading="lazy" src="/assets/game-content/selected/game1.webp" class="aspect-video self-center rounded-lg lg:col-start-1 lg:col-end-3 lg:row-span-2 lg:row-start-1" alt="" />
+    <img loading="lazy" src="/assets/game-content/selected/game3.webp" class="aspect-video self-center rounded-lg" alt="" />
+    <img loading="lazy" src="/assets/game-content/selected/game4.webp" class="aspect-video self-center rounded-lg" alt="" />
+    <img loading="lazy" src="/assets/game-content/selected/game2.webp" class="aspect-video self-center rounded-lg" alt="" />
+    <img loading="lazy" src="/assets/game-content/selected/menu1.webp" class="aspect-video self-center rounded-lg" alt="" />
 
-    <img src="/assets/game-content/selected/menu1.jpeg" class="aspect-video self-center rounded-lg lg:col-start-2 lg:col-end-4 lg:row-start-3 lg:row-end-5" alt="" />
+    <img loading="lazy" src="/assets/game-content/selected/game6.webp" class="aspect-video self-center rounded-lg lg:col-start-2 lg:col-end-4 lg:row-start-3 lg:row-end-5" alt="" />
   </div>
 </div>
 

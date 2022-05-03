@@ -72,4 +72,4 @@ Documentation: :
 
 ---
 
-Site made with ☕️ by Titouan VERHILLE
+Site made with ☕️ and ❤️ by Titouan VERHILLE
